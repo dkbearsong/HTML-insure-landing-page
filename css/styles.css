@@ -1,0 +1,450 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  font-weight: bold;
+  letter-spacing: 1.25px;
+  margin-top: 20px;
+}
+
+hr{
+    border: solid;
+    color: silver;
+    border-width: 1px;
+  }
+
+.attribution {
+  font-size: 11px;
+  margin-left: 100px;
+  text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.btn-default {
+  background:hsl(256, 26%, 20%);
+  background-color:hsl(256, 26%, 20%);
+  border: 0;
+	color: white;
+  font-family: 'Karla', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+	padding:12px 15px;
+  text-align: center;
+	text-decoration:none;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 0;
+}
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default{
+  border: 1px;
+  border-color: gray;
+  box-shadow: none;
+}
+
+.col-sm-12{
+  padding: 0;
+}
+.content:{
+  margin: 0;
+  width: auto;
+}
+
+.dark{
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+.desk-gfx{
+  display: none;
+}
+
+.flink{
+  color: hsl(270, 9%, 17%);
+  line-height: 2;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.flink:hover{
+  color: hsl(270, 9%, 17%);
+  text-decoration: underline;
+}
+
+.flink:visited {
+  color: hsl(270, 9%, 17%);
+}
+
+.fmenu{
+  color: silver;
+  font-family: 'Karla', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.fmenu-container{
+  background-color: hsl(0, 0%, 98%);
+  margin: 50px 0 140px 0;
+  padding: 50px 0 50px 0;
+}
+
+.fmenu-wrapper {
+  display: flex;
+}
+
+.gray{
+  color: silver;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.header{
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  margin: 0;
+  width: auto;
+}
+
+.how-we-work{
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  text-align: center;
+}
+
+.hr2{
+  width: 90%;
+  margin: 30px auto;
+}
+
+.light{
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: .9;
+}
+
+.light-small{
+  color: hsl(0, 0%, 98%);
+  font-family: 'Karla', sans-serif;
+  font-size: 0.93rem;
+  font-weight: lighter;
+  line-height: 2;
+  margin-top: 30px
+}
+
+.menu{
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0);
+  background-size: cover;
+  position: absolute;
+}
+.overlay1,
+.overlay2,
+.overlay3,
+.overlay4{
+  position: absolute;
+}
+
+.purple-button {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+  color: #ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:12px 24px;
+	text-decoration:none;
+  text-transform: uppercase;
+}
+.purple-button:hover {
+  background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+  background-color:#ffffff;
+	color:#2d2640;
+}
+.purple-button:active {
+	position:relative;
+	top:1px;
+}
+.row{
+  margin: 0;
+  width: auto;
+}
+.social-container{
+  width: auto;
+}
+.section{
+  width: 100%;
+}
+
+.spacer{
+  margin-top: 300px;
+}
+
+#al-right
+{
+  position: relative;
+  z-index: 2;
+}
+
+#flogo{
+  position: relative;
+  z-index: 2;
+}
+
+#navbar{
+  position: relative;
+  z-index: 2;
+}
+#overlay{
+  z-index: 1;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 900px) {
+  .col-sm-12{
+    text-align: center;
+  }
+
+  .how-we-work{
+    padding: 35px;
+    text-align: center;
+  }
+  .lighth2{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+  .mobile-cont{
+    padding: 50px;
+    text-align: center;
+  }
+  .navbar{
+    width: 100%;
+  }
+  .navbar-collapse {
+  background: hsl(256, 26%, 20%);
+  padding-top: 30px;
+  margin: 0;
+  width: 350px;
+  right: 16px;
+  position: relative;
+
+  }
+  .overlay{
+    width: 350px
+  }
+  .overlay1{
+    top: -2860px;
+    left: 225px;
+  }
+
+  .overlay2{
+    top: -3190px;
+  }
+
+  .overlay3{
+    top: -1570px;
+    left: 173px;
+  }
+
+  .overlay4{
+    top: -1190px;
+    left: 0px;
+    width: 350px;
+  }
+
+  .overlay5{
+  margin: 0;
+  width: 350px;
+  }
+  .page{
+    width: 350px;
+    margin: 0 auto;
+  }
+  .people{
+    width:auto;
+    height: auto;
+  }
+
+  .pic-left{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pic-right{
+    margin: 30px 10px 0 10px;
+
+  }
+
+  .social-container{
+      text-align: center;
+  }
+  .spacer-2{
+    margin-top: 30px;
+  }
+
+  body {
+    background-color: #ffffff;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 900px) {
+  .btn-default {
+    background:#ffffff;
+    background-color:#ffffff;
+    border: 0;
+  	color: gray;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+  	padding:12px 15px;
+    text-align: left;
+  	text-decoration:none;
+    text-transform: uppercase;
+  }
+  .btn-default:hover {
+    background:linear-gradient(to bottom, #2d2640; 5%, #2d2640; 100%);
+    background-color:#ffffff;
+    border: 0;
+    color: #2d2640;
+  }
+
+  .btn-default:focus,
+  .btn-default:active,
+  .btn-default.active,
+  .open .dropdown-toggle.btn-default{
+    background: #2d2640;
+    background-color: #2d2640;
+    box-shadow: none;
+    color: #ffffff;
+    outline: none;
+  }
+  .content{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+  }
+
+  .desk-gfx{
+    display: inline;
+  }
+
+  .dark{
+    font-size: 4.25rem;
+    line-height: .9;
+    width: 50%;
+  }
+
+  .fmenu-container{
+    background-color: hsl(0, 0%, 98%);
+    margin: 50px 0 140px 0;
+    padding: 50px 150px;
+  }
+
+  .fmenu{
+    text-align: left;
+  }
+
+  .header {
+    height: 600px;
+    padding: 65px 150px 100px 160px;
+  }
+  .hr1{
+    width: 150px;
+    margin-bottom: 50px;
+  }
+  .hr2{
+    margin: 50px 0 40px 0;
+    width: 1120px;
+    display: block;
+  }
+  .how-we-work{
+    height: 230px;
+    margin: 75px 160px 200px 160px ;
+    padding: 50px 75px 75px 75px;
+    text-align: left;
+    width: 77%;
+  }
+  .light{
+    font-size: 3.75rem;
+    text-align: left;
+  }
+  .lighth2{
+    float: left;
+    font-size: 3.375rem;
+    font-weight: lighter;
+    line-height: 1;
+  }
+  .mobile-gfx{
+    display: none;
+  }
+  .overlay{
+    width: 1440px;
+  }
+  .overlay1{
+    top: -2525px;
+    right: 0;
+  }
+/* Overlay 1 needs to hide under the navbar */
+
+  .overlay2{
+    top: -2015px;
+    left: 0;
+  }
+
+  .overlay3{
+    top: -977px;
+    right: 172px;
+  }
+  /* Overlay3 needs to be contained within the purple */
+  .overlay4{
+    top: -550px;
+    left: 0;
+  }
+  /* Need to bring Insure logo above overlay4 */
+  .overlay5{
+    display: none;
+  }
+  .people{
+    width:580px;
+    height: 650px;
+  }
+  .page{
+    width: 1440px;
+    margin: 0 auto;
+  }
+  .pic-left{
+    float: left;
+  }
+
+  .pic-right{
+    float: right;
+    margin-right: 10px;
+  }
+  #al-right{
+    float: right;
+    margin-top: 60px;
+  }
+  body {
+    background-color: #ffffff;
+  }
+}
