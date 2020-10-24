@@ -412,8 +412,10 @@ hr{
   }
 
   .overlay3{
+    height: 230px;
     top: -977px;
     right: 172px;
+    width: 465px;
   }
   /* Overlay3 needs to be contained within the purple */
   .overlay4{
